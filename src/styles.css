@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+
+.button--state {
+  background-color: rgb(252, 139, 195);
+  color: #fdf5e6;
+}
+
+.button:hover{
+  background-color: #fdf5e6;
+  color: rgb(252, 139, 195);
+}
