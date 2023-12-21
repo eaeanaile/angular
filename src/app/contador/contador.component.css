@@ -1,0 +1,26 @@
+.contador-container {
+    text-align: center;
+    margin: 20px;
+}
+  
+/* Estilos para el botón de aumentar puntos */
+.btn-aumentar {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffb71d;
+  color: #042955;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-aumentar:hover {
+  background-color: #f8cf01;
+}
+
+/* Estilos para el texto de puntos */
+.puntos-text {
+  font-size: 24px;
+  margin-top: 10px;
+}
