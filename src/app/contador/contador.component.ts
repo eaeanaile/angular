@@ -8,9 +8,13 @@ import { Component } from '@angular/core';
   styleUrl: './contador.component.css'
 })
 export class ContadorComponent {
-  puntos: number = 0;
+  contador: number = 0;
 
-  aumentarPuntos(){
-    this.puntos++;
+  SubirMarcador(){
+    this.contador++;
+  }
+
+  BajarMarcador(){
+    this.contador = this.contador - 1;
   }
 }

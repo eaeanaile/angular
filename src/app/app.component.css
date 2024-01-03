@@ -1,0 +1,20 @@
+/*.btnSubir{
+    width: 0px;
+    height: 0px;
+    border-bottom: 100px solid #1d78e9;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.btnBajar{
+    width: 0px;
+    height: 0px;
+    border-top: 100px solid #1d78e9;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}*/
+
+.contador-container{
+    text-align: center;
+    margin: 20px;
+}

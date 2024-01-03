@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; 
+}
+
+main{
+    max-width: 1200px;
+    padding: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.marcador{
+    text-align: center;
+}
+
+.btnSubir{
+    padding: 10px 10px; 
+    font-size: 13px; 
+    background-color: #f8cf01; 
+    color: #042955; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease; /
+}
+
+.btnSubir:hover {
+    background-color: #f6e245; 
+}
+
+.txtContador{
+    font-size: 200px;
+    color: #042955;
+}
+
+.btnBajar{
+    padding: 10px 10px; 
+    font-size: 13px; 
+    background-color: #f8cf01; 
+    color: #042955; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease; 
+}
+
+.btnBajar:hover {
+    background-color: #f6e245; 
+}
