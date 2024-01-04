@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input,  } from '@angular/core';
 
 @Component({
   selector: 'app-contador',
@@ -8,13 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './contador.component.css'
 })
 export class ContadorComponent {
-  contador: number = 0;
 
-  SubirMarcador(){
-    this.contador++;
-  }
-
-  BajarMarcador(){
-    this.contador = this.contador - 1;
-  }
+  @Input() puntos: number = 0;
 }

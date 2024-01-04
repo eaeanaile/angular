@@ -1,0 +1,21 @@
+
+
+
+.botones{
+    padding: 10px 10px; 
+    font-size: 15px; 
+    background-color: #f8cf01; 
+    color: #042955; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease; 
+    text-align: center;
+
+}
+
+.botones:hover {
+    background-color: #f6e245; 
+}
+
+

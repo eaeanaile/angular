@@ -8,7 +8,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   styleUrl: './button.component.css'
 })
 export class ButtonComponent {
-  
+
   @Input() contador: number = 0;
   @Output() darClick = new EventEmitter<number>();
   
@@ -17,11 +17,4 @@ export class ButtonComponent {
     this.darClick.emit();
   }
 
-  SubirMarcador(){
-    this.contador++;
-  }
-
-  BajarMarcador(){
-    this.contador = this.contador - 1;
-  }
 }
