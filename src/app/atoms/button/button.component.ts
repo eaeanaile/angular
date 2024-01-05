@@ -9,12 +9,4 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 })
 export class ButtonComponent {
 
-  @Input() contador: number = 0;
-  @Output() darClick = new EventEmitter<number>();
-  
-
-  manejadorInternoClick(){
-    this.darClick.emit();
-  }
-
 }
