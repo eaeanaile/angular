@@ -3,6 +3,7 @@
 <main class="main">
 
   <app-marcador></app-marcador>
+  <app-cambios (click)="rotar()" [ngStyle] = "{'transform': posicionDerecha ? 'rotate(45deg)': 'rotate(-45deg)', 'transition': '0.5s ease'}"></app-cambios>
   <app-marcador></app-marcador>
   
 </main>
