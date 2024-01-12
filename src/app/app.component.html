@@ -2,9 +2,9 @@
 
 <main class="main">
 
-  <app-marcador></app-marcador>
-  <app-cambios (click)="rotar()" [ngStyle] = "{'transform': posicionDerecha ? 'rotate(45deg)': 'rotate(-45deg)', 'transition': '0.5s ease'}"></app-cambios>
-  <app-marcador></app-marcador>
+  <app-marcador [bloqueadorMarcador]="cambioPosicionDerecha === true ? true: false"></app-marcador>
+  <app-cambios (cambiar)="cambiarPosicionDerecha($event)"></app-cambios>
+  <app-marcador [bloqueadorMarcador]="cambioPosicionDerecha === true ? false: true"></app-marcador>
   
 </main>
 

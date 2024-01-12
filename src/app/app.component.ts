@@ -14,15 +14,12 @@ import { CambiosComponent } from "./atoms/cambios/cambios.component";
     imports: [CommonModule, RouterOutlet, ContadorComponent, ButtonComponent, MarcadorComponent, CambiosComponent]
 })
 export class AppComponent {
+  title: any;
 
-    posicionDerecha = true; 
-    
-    rotar(){
-      if (this.posicionDerecha) {
-        this.posicionDerecha = false;
-     } else {
-      this.posicionDerecha = true;
-     }
-     console.log("valor de posicion", this.posicionDerecha)
-    }
+  cambioPosicionDerecha = false;
+
+  cambiarPosicionDerecha( nuevaPosicion: boolean){
+    this.cambioPosicionDerecha=nuevaPosicion;
+
+  }
 }

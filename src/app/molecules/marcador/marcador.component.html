@@ -1,10 +1,8 @@
 
 <section>
-    <app-button (click)="SubirMarcador()">Subir</app-button>
+    <app-button (click)="SubirMarcador()" [bloqueadorBoton]="bloqueadorMarcador">Subir</app-button>
     <app-contador [puntos]="contador"></app-contador>
-    <app-button (click)="BajarMarcador()">Bajar</app-button>
-    
-
+    <app-button (click)="BajarMarcador()" [bloqueadorBoton]="bloqueadorMarcador">Bajar</app-button>
 </section>
 
 
